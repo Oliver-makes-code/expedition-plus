@@ -1,25 +1,24 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "com.example",
-		"id": "example_mod",
+		"group": "dev.proxyfox.mod",
+		"id": "expedition",
 		"version": "${version}",
 		"metadata": {
-			"name": "Mod Name",
-			"description": "A short description of your mod.",
+			"name": "Expedition Plus",
+			"description": "A mod adding various biomes",
 			"contributors": {
-				"Your name here": "Owner"
+				"Octal": "Owner"
 			},
 			"contact": {
-				"homepage": "https://example.com/",
-				"issues": "https://github.com/QuiltMC/quilt-template-mod/issues",
-				"sources": "https://github.com/QuiltMC/quilt-template-mod"
+				"issues": "https://github.com/Oliver-makes-code/expedition-plus/issues",
+				"sources": "https://github.com/Oliver-makes-code/expedition-plus"
 			},
-			"icon": "assets/example_mod/icon.png"
+			"icon": "assets/expedition/icon.png"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"init": "dev.proxyfox.mod.expedition.ExpeditionPlusMod"
 		},
 		"depends": [
 			{
@@ -36,5 +35,5 @@
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "expedition.mixins.json"
 }
